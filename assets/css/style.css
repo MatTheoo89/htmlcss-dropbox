@@ -153,9 +153,34 @@ header img.logo{
 
 /*  MAIN  */
 main{
-  height: 1500px;
+  height: 2000px;
+  background-color: antiquewhite;
+}
 
-  /*  /MAIN  */
+section{
+  height: 250px;
+}
+
+/* SECTION TERZA */
+
+.section-terza .container .image{
+  width: 60%;
+}
+
+.section-terza .container .text{
+  width: 40px;
+}
+
+.section-terza .container .text h2{
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.section-terza .container .text p{
+  margin-bottom: 10px;
+}
+/* /SECTION TERZA */
+
+/*  /MAIN  */
 
 
 /*  FOOTER  */
