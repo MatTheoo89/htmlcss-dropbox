@@ -154,7 +154,46 @@ header img.logo{
 /*  MAIN  */
 main{
   height: 500px;
-  background-color: blue;
+  background-color: rgb(120, 120, 201);
+}
+main section{
+  padding: 150px 40px;
+}
+main section h2{
+  margin-bottom: 30px;
+}
+
+.box{
+  padding-right: 50px;
+}
+
+.row .box span{
+  padding-left: 10px;
+}
+
+
+.circle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  height: 1rem;
+  width: 1rem;
+}
+
+.circle.fill{
+  background-color: #0061FF;
+}
+
+.circle.empty{
+  border: 1px solid #D0D0D3;
+}
+
+.circle.small{
+  background-color: #ffffff;
+  border-radius: 50%;
+  height: .4rem;
+  width: .4rem;
 }
 
 
