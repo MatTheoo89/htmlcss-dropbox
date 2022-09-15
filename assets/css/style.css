@@ -163,11 +163,11 @@ section{
 
 /* SECTION TERZA */
 
-.section-terza .container .image{
+.section-terza.container .image{
   width: 60%;
 }
 
-.section-terza .container .text{
+.section-terza.container .text{
   width: 40px;
 }
 
