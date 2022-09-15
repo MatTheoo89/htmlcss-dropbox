@@ -5,10 +5,6 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-header ul, footer ul{
-  display: flex;
-}
-
 header ul li, footer ul li{
   list-style: none;
 }
@@ -78,6 +74,7 @@ header{
 nav{
   font-weight: lighter;
 }
+
 
 header img.logo{
   vertical-align: center;
@@ -164,6 +161,36 @@ main{
 /*  FOOTER  */
 
 footer{
+  padding-top: 100px;
+  color: white;
   height: 570px;
   background-color: #000000;
+}
+footer a{
+  color: white;
+}
+
+.footer-top{
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+
+.col-menu h3{
+  margin-bottom: 20px;
+}
+
+.col-menu li{
+  margin-bottom: 15px;
+}
+
+.footer-bottom{
+  border-top: 1px solid #FFFFFF;
+  padding-top: 40px;
+}
+
+.footer-bottom .lang span{
+  padding: 0 10px;
+}
+.footer-bottom .lang{
+  align-items: center;
 }
