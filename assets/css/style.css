@@ -31,3 +31,33 @@ section::before{
 .flex-wrap{
   flex-wrap: wrap;
 }
+
+/*  HEADER  */
+
+header{
+  height: 80px;
+  background-color: #FFFFFF;
+}
+
+/*  JUMBO  */
+
+.jumbotron{
+  height: 500px;
+  background-color: #B4D0E7;
+}
+
+
+
+/*  MAIN  */
+main{
+  height: 500px;
+  background-color: blue;
+}
+
+
+/*  FOOTER  */
+
+footer{
+  height: 570px;
+  background-color: #000000;
+}
