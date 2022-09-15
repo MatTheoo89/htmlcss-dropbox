@@ -5,6 +5,10 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+img{
+  max-width: 100%;
+}
+
 header ul li, footer ul li{
   list-style: none;
 }
@@ -53,8 +57,20 @@ header ul li a, footer ul li a{
 .btn{
   display: inline-block;
   color: #FFFFFF;
+  padding: 7px 15px;
+  text-decoration: none;
+}
+
+.btn:hover{
+  background-color: #0062ff9d;
+}
+
+.big{
+  padding: 10px 25px;
+}
+
+.fill{
   background-color: #0061FF;
-  padding: 5px 15px;
 }
 
 /*  HEADER  */
@@ -94,10 +110,9 @@ header img.logo{
 
 .jumbotron{
   position: relative;
-
   padding-top: 80px;
-  /* height: 736px; */
   background-color: #B4D0E7;
+  margin-bottom: 50px;
 }
 
 .jumbotron .box{
@@ -153,32 +168,91 @@ header img.logo{
 
 /*  MAIN  */
 main{
-  height: 2000px;
-  background-color: antiquewhite;
+  height: 4000px;
+  /* background-color: antiquewhite; */
+}
+section h2{
+  font-size: 35px;
 }
 
-section{
-  height: 250px;
+section.container{
+  margin-bottom: 60px;
+}
+
+/* debug prov */
+
+.section-prima, .section-seconda, .section-cinque, .section-sei{
+  height: 300px;
 }
 
 /* SECTION TERZA */
-
 .section-terza.container .image{
   width: 60%;
 }
 
 .section-terza.container .text{
-  width: 40px;
+  padding: 60px 150px 0 50px;
+  width: 40%;
 }
 
-.section-terza .container .text h2{
-  font-size: 40px;
-  margin-bottom: 10px;
+.section-terza.container .text h3{
+  font-size: 20px;
+  margin-bottom: 20px;
 }
-.section-terza .container .text p{
-  margin-bottom: 10px;
+.section-terza.container .text p{
+  margin-bottom: 30px;
+}
+
+.section-terza.container .text .btn{
+  color: #000000;
+  border: 1px solid #000000;
 }
 /* /SECTION TERZA */
+
+/* /SECTION QUATTRO */
+.section-quarta.container h2{
+  margin-bottom: 50px;
+}
+
+.section-quarta.container h3,
+.section-quarta.container img{
+  margin-bottom: 10px;
+}
+
+.section-quarta.container img{
+  width: 60%;
+}
+
+.section-quarta.container h3{
+  padding-right: 150px;
+}
+.section-quarta.container .grid .card{
+  width: calc(100% / 3);
+  padding: 20px 0;
+  margin-bottom: 30px;
+}
+.section-quarta.container .grid .card p{
+  padding-right: 90px;
+}
+/* /SECTION QUATTRO */
+
+
+
+/* SECTION CINQUE */
+.section-cinque.container{
+  padding: 20px 600px 0 0;
+}
+
+.section-cinque.container h2{
+  margin-bottom: 50px;
+}
+
+.section-cinque.container a{
+  font-size: .9rem;
+  font-weight: lighter;
+}
+
+/* /SECTION CINQUE */
 
 /*  /MAIN  */
 
