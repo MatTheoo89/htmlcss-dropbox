@@ -28,7 +28,12 @@ img{
 } */
 
 .container{
-  width: 80%;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.container-2{
+  width: 95%;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -176,9 +181,88 @@ section.container{
 
 /* debug prov */
 
-.section-prima, .section-seconda, .section-cinque, .section-sei{
+.section-seconda, .section-cinque, .section-sei{
   height: 300px;
 }
+
+/* SECTION PRIMA */
+
+.section-prima.container .container-2 h2{
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.section-prima.container .container-2 span{
+  padding-right: 40px;
+  margin-bottom: 30px;
+}
+
+.choise-plan{
+  margin-bottom: 30px;
+}
+
+.box-plan{
+  justify-content: space-between;
+}
+
+.box-plan .col{
+  width: calc(100% / 3);
+  height: 1000px;
+  padding: 10px;  
+}
+
+.box-plan .col .card{
+  border: 1px solid grey;
+  height: 1000px;
+}
+
+.box-plan .col .user{
+  text-align: center;
+  border-bottom: 1px solid grey;
+  padding: 10px 0;
+}
+
+.box-plan .col .offert-plan{
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.box-plan .col .offert-plan h3{
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.box-plan .col .offert-plan .price p{
+  padding: 10px 0;
+}
+
+.box-plan .col .offert-plan .price #time{
+  color: grey;
+}
+
+.box-plan .col .card .offert-description li{
+  padding: 10px 0;
+  list-style: none;
+}
+
+.box-plan .col .card .offert-description li i{
+  margin-right: 10px;
+}
+
+.box-plan .col .card .offert-description li{
+  display: flex;
+  padding: 20px;
+}
+
+.box-plan .col .card .btn{
+  display: inline-block;
+text-align: center;
+}
+
+.fa-solid.fa-circle-dot{
+  color: #0061ff;
+}
+/* SECTION PRIMA */
 
 /* SECTION TERZA */
 .section-terza.container .image{
