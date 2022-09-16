@@ -298,7 +298,6 @@ section.container-2{
   margin: 50px 0;
 }
 
-/* DA MODIFICARE CLASSI */
 .col-enterprise .air{
   padding-bottom: 20px;
 }
@@ -353,29 +352,25 @@ section.container-2{
 /* /SECTION TERZA */
 
 /* /SECTION QUATTRO */
-.section-quarta.container-2 h2{
-  margin-bottom: 50px;
-}
-
-.section-quarta.container-2 h3,
-.section-quarta.container img{
-  margin-bottom: 10px;
-}
-
-.section-quarta.container-2 img{
-  width: 60%;
-}
-
-.section-quarta.container-2 h3{
-  padding-right: 150px;
-}
-.section-quarta.container-2 .grid .card{
-  width: calc(100% / 3);
-  padding: 20px 0;
+.section-quarta h2{
   margin-bottom: 30px;
 }
-.section-quarta.container-2 .grid .card p{
-  padding-right: 90px;
+
+.section-quarta .container-2{
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.section-quarta .container-2 .card{
+  width: calc(100% /3);
+  padding: 20px;
+  margin-bottom: 30px;
+}
+.section-quarta .container-2 .card h3{
+  padding-bottom: 30px;  
+  font-size: 1.3rem;
+}
+.section-quarta .container-2 .card img{
+  width: 90%;
 }
 /* /SECTION QUATTRO */
 
