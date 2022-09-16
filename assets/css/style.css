@@ -175,7 +175,7 @@ section h2{
   font-size: 35px;
 }
 
-section.container{
+section.container-2{
   margin-bottom: 60px;
 }
 
@@ -186,13 +186,16 @@ section.container{
 }
 
 /* SECTION PRIMA */
+.section-prima.container{
+  margin-bottom: 50px;
+}
 
-.section-prima.container .container-2 h2{
+.section-prima.container-2 .container h2{
   font-size: 50px;
   margin-bottom: 30px;
 }
 
-.section-prima.container .container-2 .choise-plan span{
+.section-prima.container-2 .container .choise-plan span{
   padding-right: 40px;
   margin-bottom: 30px;
 }
@@ -211,10 +214,9 @@ section.container{
 
 .box-plan .col{
   width: calc(100% / 3);
-  height: 1000px;
+  min-height: 1050px;
   margin-right: 20px;
   border: 1px solid grey;
-  height: 1000px;
 }
 
 .box-plan .col .type-plain{
@@ -283,52 +285,53 @@ section.container{
 /* SECTION PRIMA */
 
 /* SECTION TERZA */
-.section-terza.container .image{
+
+.section-terza.container-2 .image{
   width: 60%;
 }
 
-.section-terza.container .text{
+.section-terza.container-2 .text{
   padding: 60px 150px 0 50px;
   width: 40%;
 }
 
-.section-terza.container .text h3{
+.section-terza.container-2 .text h3{
   font-size: 20px;
   margin-bottom: 20px;
 }
-.section-terza.container .text p{
+.section-terza.container-2 .text p{
   margin-bottom: 30px;
 }
 
-.section-terza.container .text .btn{
+.section-terza.container-2 .text .btn{
   color: #000000;
   border: 1px solid #000000;
 }
 /* /SECTION TERZA */
 
 /* /SECTION QUATTRO */
-.section-quarta.container h2{
+.section-quarta.container-2 h2{
   margin-bottom: 50px;
 }
 
-.section-quarta.container h3,
+.section-quarta.container-2 h3,
 .section-quarta.container img{
   margin-bottom: 10px;
 }
 
-.section-quarta.container img{
+.section-quarta.container-2 img{
   width: 60%;
 }
 
-.section-quarta.container h3{
+.section-quarta.container-2 h3{
   padding-right: 150px;
 }
-.section-quarta.container .grid .card{
+.section-quarta.container-2 .grid .card{
   width: calc(100% / 3);
   padding: 20px 0;
   margin-bottom: 30px;
 }
-.section-quarta.container .grid .card p{
+.section-quarta.container-2 .grid .card p{
   padding-right: 90px;
 }
 /* /SECTION QUATTRO */
@@ -376,16 +379,24 @@ footer a{
 }
 
 .col-menu li{
+  list-style: none;
   margin-bottom: 15px;
 }
+.col-menu a{
+  text-decoration: none;
+}
 
-.footer-bottom{
-  border-top: 1px solid #FFFFFF;
-  padding-top: 40px;
+
+.footer-bottom .tratto{
+  width: 125px;
+  border: 1px solid grey;
+  margin: 20px 0 40px;
 }
 
 .footer-bottom .lang span{
   padding: 0 10px;
+  font-weight: lighter;
+  font-size: .9rem;
 }
 .footer-bottom .lang{
   align-items: center;
