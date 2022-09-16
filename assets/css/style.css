@@ -398,21 +398,24 @@ section.container-2{
   background-color: #B4D0E7;
 }
 
-.section-quadrati .container-2{
+.section-quadrati .container-top{
   position: relative;
+  margin-bottom: 50px;
+}
+
+.box-right{
+  width: calc(100% / 3);
+  margin-left: auto;
+}
+.box-left{
   width: calc(100% / 3);
 }
 
-.section-quadrati .container-2 .box-left{
-  flex-wrap: wrap;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.section-quadrati .container-2 .box{
-  width: 250px;
-  height: 250px;
+.section-quadrati .box{
+  display: inline-block;
+  width: calc(100% / 2);
+  min-width: 250px;
+  min-height: 250px;
 }
 
 #box-1{
