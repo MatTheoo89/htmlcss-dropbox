@@ -168,7 +168,7 @@ header{
 
 /*  MAIN  */
 main{
-  height: 4000px;
+  height: 5000px;
   /* background-color: antiquewhite; */
 }
 section h2{
@@ -181,7 +181,7 @@ section.container-2{
 
 /* debug prov */
 
-.section-seconda, .section-cinque, .section-sei{
+.section-seconda, .section-cinque{
   height: 300px;
 }
 
@@ -210,6 +210,7 @@ section.container-2{
 
 .box-plan{
   justify-content: space-between;
+  margin-bottom: 20px;
 }
 
 .box-plan .col{
@@ -219,23 +220,37 @@ section.container-2{
   border: 1px solid grey;
 }
 
-.box-plan .col .type-plain{
+.row{
+  border: 1px solid grey;
+  height: 250px;
+}
+
+.row1{
+  justify-content: space-between;
+}
+
+
+.box-plan .col .type-plain,
+.row .type-plain{
   margin-bottom: 10px;
   text-align: center;
-  padding: 20px 0;
+  padding: 15px 0;
   border-bottom: 1px solid grey;
 }
 
-.box-plan .col .card{
+.box-plan .col .card,
+.row .card{
   height: 95%;
   padding: 25px;
 }
 
-.box-plan .col .card .user-plain{
+.box-plan .col .card .user-plain,
+.row .user-plain{
   margin-bottom: 30px;
 }
 
-.box-plan .col .card .user-plain h3{
+.box-plan .col .card .user-plain h3,
+.row .user-plain h3{
   font-size: 30px;
 }
 
@@ -353,6 +368,24 @@ section.container-2{
 }
 
 /* /SECTION CINQUE */
+
+/* /SECTION SEI */
+.section-sei.container-2 h2{
+  font-size: 40px;
+  border-bottom: 1px solid grey;
+  padding-bottom: 50px;
+}
+
+.section-sei.container-2 .faq-row{
+  justify-content: space-between;
+  padding: 40px 0;
+  border-bottom: 1px solid grey;
+}
+
+.section-sei.container-2 .faq-row i{
+  margin-right: 40px;
+}
+/* /SECTION SEI */
 
 /*  /MAIN  */
 
