@@ -192,9 +192,13 @@ section.container{
   margin-bottom: 30px;
 }
 
-.section-prima.container .container-2 span{
+.section-prima.container .container-2 .choise-plan span{
   padding-right: 40px;
   margin-bottom: 30px;
+}
+
+.fa-solid.fa-circle-dot{
+  color: #0061ff;
 }
 
 .choise-plan{
@@ -208,60 +212,70 @@ section.container{
 .box-plan .col{
   width: calc(100% / 3);
   height: 1000px;
-  padding: 10px;  
-}
-
-.box-plan .col .card{
+  margin-right: 20px;
   border: 1px solid grey;
   height: 1000px;
 }
 
-.box-plan .col .user{
+.box-plan .col .type-plain{
+  margin-bottom: 30px;
   text-align: center;
+  padding: 20px 0;
   border-bottom: 1px solid grey;
-  padding: 10px 0;
 }
 
-.box-plan .col .offert-plan{
-  padding: 20px;
+.box-plan .col .card{
+  height: 95%;
+  padding: 25px;
+}
+
+.box-plan .col .card .user-plain{
   margin-bottom: 30px;
 }
 
-.box-plan .col .offert-plan h3{
-  font-size: 25px;
-  margin-bottom: 10px;
+.box-plan .col .card .user-plain h3{
+  font-size: 30px;
 }
 
-.box-plan .col .offert-plan .price p{
+.box-plan .col .card .user-plain p,
+.box-plan .col .card .user-plain h3{
   padding: 10px 0;
 }
 
-.box-plan .col .offert-plan .price #time{
+.box-plan .col .card .user-plain p:last-child{
   color: grey;
+  font-weight: lighter;
+  font-size: .9rem;
 }
 
-.box-plan .col .card .offert-description li{
-  padding: 10px 0;
+.box-plan .col .card .list{
+  margin-bottom: 30px;
+}
+
+.box-plan .col .card .list li,
+.box-plan .col .card .list-2 li{
+  padding: 15px 0;
   list-style: none;
+  line-height: 1.5rem;
 }
 
-.box-plan .col .card .offert-description li i{
-  margin-right: 10px;
-}
-
-.box-plan .col .card .offert-description li{
-  display: flex;
-  padding: 20px;
+.box-plan .col .card .list li i,
+.box-plan .col .card .list-2 li i{
+  padding-right: 10px;
 }
 
 .box-plan .col .card .btn{
-  display: inline-block;
-text-align: center;
+  display: block;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
-.fa-solid.fa-circle-dot{
-  color: #0061ff;
+.box-plan .col .card .tratto{
+  width: 50px;
+  border: 1px solid grey;
+  margin: 50px 0;
 }
+
 /* SECTION PRIMA */
 
 /* SECTION TERZA */
