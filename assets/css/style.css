@@ -110,9 +110,10 @@ header{
 
 .jumbotron{
   position: relative;
+  height: 750px;
   padding-top: 80px;
   background-color: #B4D0E7;
-  margin-bottom: 50px;
+  margin-bottom: 170px;
 }
 
 .jumbotron .box{
@@ -151,7 +152,7 @@ header{
 .jumbotron .j-bottom .text .arrow{
   position: absolute;
   left: 0;
-  bottom: 20px;
+  bottom: 140px;
 }
 
 .jumbotron .arrow{
