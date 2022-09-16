@@ -218,7 +218,7 @@ section.container{
 }
 
 .box-plan .col .type-plain{
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   text-align: center;
   padding: 20px 0;
   border-bottom: 1px solid grey;
@@ -254,7 +254,7 @@ section.container{
 
 .box-plan .col .card .list li,
 .box-plan .col .card .list-2 li{
-  padding: 15px 0;
+  padding: 10px 0;
   list-style: none;
   line-height: 1.5rem;
 }
@@ -262,6 +262,10 @@ section.container{
 .box-plan .col .card .list li i,
 .box-plan .col .card .list-2 li i{
   padding-right: 10px;
+}
+
+.box-plan .col .card .list-2 li i{
+  color:#0061FF;
 }
 
 .box-plan .col .card .btn{
