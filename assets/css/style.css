@@ -398,7 +398,19 @@ section.container-2{
   background-color: #B4D0E7;
 }
 
-.section-quadrati .row-top .box{
+.section-quadrati .container-2{
+  position: relative;
+  width: calc(100% / 3);
+}
+
+.section-quadrati .container-2 .box-left{
+  flex-wrap: wrap;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.section-quadrati .container-2 .box{
   width: 250px;
   height: 250px;
 }
