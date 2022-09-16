@@ -86,6 +86,11 @@ header{
   text-decoration: none;
 }
 
+.menu li.hover:hover{
+  border-bottom: 2px solid black;
+  padding: 30px 15px;
+}
+
 .menu li{
   list-style: none;
   padding: 0 15px;
