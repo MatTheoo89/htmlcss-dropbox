@@ -9,14 +9,6 @@ img{
   max-width: 100%;
 }
 
-header ul li, footer ul li{
-  list-style: none;
-}
-header ul li a, footer ul li a{
-  text-decoration: none;
-}
-
-
 /*  UTILITY  */
 .debug1{
   background-color: rgba(255, 0, 0, .5);
@@ -39,18 +31,17 @@ header ul li a, footer ul li a{
   width: 80%;
   max-width: 1200px;
   margin: 0 auto;
-
 }
 
 .d-flex{
   display: flex;
 }
 
-.flex-wrap{
+.f-wrap{
   flex-wrap: wrap;
 }
 
-.flex-center{
+.f-center{
   align-items: center;
 }
 
@@ -73,7 +64,7 @@ header ul li a, footer ul li a{
   background-color: #0061FF;
 }
 
-/*  HEADER  */
+/* HEADER */
 
 header{
   position: fixed;
@@ -83,26 +74,25 @@ header{
   width: 100%;
   height: 80px;
   background-color: #FFFFFF;
-  padding: 0 30px;
+  padding: 0 40px;
   justify-content: space-between;
+  flex-wrap: nowrap;
+  box-shadow: 0 3px 12px grey;
 }
 
-nav{
-  font-weight: lighter;
-}
 
-
-header img.logo{
-  vertical-align: center;
-}
-
-.menu{
-  padding-right: 25px;
-}
-
-.menu ul li a, .menu ul li a{
+.menu a{
   color: black;
-  padding: 0 30px;
+  text-decoration: none;
+}
+
+.menu li{
+  list-style: none;
+  padding: 0 15px;
+}
+
+.button{
+  margin-left: 10px;
 }
 
 
@@ -293,7 +283,6 @@ footer a{
 .footer-bottom .lang{
   align-items: center;
 }
-
 
 
 
